@@ -7,6 +7,8 @@ class Product (models.Model):
     _inherit = 'supermarket.productCategory'
     _description = 'Product'
 
-    unitPrice = fields.Float('Unit Price', required=True,
-                             related='supermarket.cart', store=True)
+    unitPrice = fields.Float('Unit Price', required=True ,related='supermarket.cart', store=True)
     productName = fields.Char('Product Name', required=True)
+
+
+    # asdasd
