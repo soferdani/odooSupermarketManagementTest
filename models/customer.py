@@ -6,7 +6,7 @@ class Customer(models.Model):
     _name = 'supermarket.customer'
     _description = 'Customer'
 
-    name = fields.Char('Name')
+    name = fields.Char('Name', required=True)
     email = fields.Char('Email')
     city = fields.Char('City')
     street = fields.Char('Street')
