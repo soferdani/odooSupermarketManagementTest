@@ -1,4 +1,4 @@
-from models.ProductCategory import ProductCategory
+from models.productCategory import ProductCategory
 from oddo import models, fields
 
 

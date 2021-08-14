@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
 from . import customer
-from . import ProductCategory
-from . import Product
+from . import productCategory
+from . import product
