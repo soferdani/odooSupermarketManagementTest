@@ -11,4 +11,4 @@ class CartItem (models.Model):
 
     cart = fields.Many2one('supermarket.cart')
     product = fields.Many2one('supermarket.product')
-    quantity = fields.Float('Quantity')
+    quantity = fields.Float('Quantity', related='supermarket.cart', store=True)
