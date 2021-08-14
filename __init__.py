@@ -1,2 +1,2 @@
 # -*- coding: utf-8 -*-
-from . import supermarket
+from . import models

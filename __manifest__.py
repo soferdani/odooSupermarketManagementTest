@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 {
     'name':        "Supermarket Management",
-    'author': "Daniel sofer"
+    'author': "Daniel sofer",
+
     'summary':
-                   """
-                   Supermarket management
-                   """,
+    """
+                Supermarket management
+                """,
 
     'description': """
         Manage a SuperMarket: customers, products, etc.... 
