@@ -10,6 +10,3 @@ class Customer(models.Model):
     email = fields.Char('Email')
     city = fields.Char('City')
     street = fields.Char('Street')
-    
-
-  
