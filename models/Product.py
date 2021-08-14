@@ -3,8 +3,8 @@ from oddo import models, fields
 
 
 class Product (models.Model):
-    _name = 'supermarket.Product'
-    _inherit = 'supermarket.ProductCategory'
+    _name = 'supermarket.product'
+    _inherit = 'supermarket.productCategory'
     _description = 'Product'
 
     unitPrice = fields.Float('Unit Price')
