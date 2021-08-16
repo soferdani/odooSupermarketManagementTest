@@ -9,6 +9,9 @@ class CartItem (models.Model):
     }
     _description = 'CartItem'
 
+    
+    
+    customer = fields.Many2one('supermarket.customer')
     cart = fields.Many2one('supermarket.cart')
     product = fields.Many2one('supermarket.product')
     quantity = fields.Float('Quantity', related='supermarket.cart', store=True)
